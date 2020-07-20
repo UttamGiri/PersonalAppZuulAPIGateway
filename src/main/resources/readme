@@ -1,0 +1,17 @@
+Examples
+
+http://localhost:8011/actuator/health
+result -  {"status":"UP"}   {"status":"DOWN"}
+
+all beans 
+http://localhost:8011/actuator/beans
+
+
+http://localhost:8011/actuator/routes
+
+shows list of microservices running
+
+result- {"/users-ws/**":"users-ws","/account-ws/**":"account-ws"}
+
+
+http://localhost:8011/account-ws/actuator/health
